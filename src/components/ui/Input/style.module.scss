@@ -1,0 +1,16 @@
+@import '../../../assets/styles/_theme.scss';
+
+.input {
+    border: 1px solid $primary;
+    border-radius: $xs-space;
+    padding: $md-space $lg-space;
+    font-size: $lg-font;
+    width: 100%;
+    margin: $md-space 0;
+    outline: none;
+    transition: $transition;
+
+    &:focus {
+        border-color: $accent;
+    }
+}

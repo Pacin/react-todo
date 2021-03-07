@@ -1,0 +1,34 @@
+@import '../../assets/styles/theme';
+
+.toolbar {
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+}
+
+.brandLogo, .navLink {
+    color: $light;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: $md-space $lg-space;
+    transition: $transition;
+
+    &:hover {
+        background-color: lighten($primary, 15%);
+    }
+}
+
+.brandLogo {
+    padding: $md-space $lg-space;
+    font-size: $lg-font;
+}
+
+.navItem {
+    display: flex;
+}

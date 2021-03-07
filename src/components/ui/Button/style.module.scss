@@ -1,0 +1,60 @@
+@import '../../../assets/styles/_theme.scss';
+
+.btn {
+    border-radius: $xs-space;
+    padding: $md-space $lg-space;
+    transition: $transition;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: $xs-space;
+    font-weight: bold;
+
+    &.primary {
+        background-color: $primary;
+        color: $light;
+        &:hover {
+            background-color: lighten($primary, 5%);
+        }
+    }
+
+    &.secondary {
+        background-color: $secondary;
+        color: $light;
+
+        &:hover {
+            background-color: lighten($secondary, 5%);
+        }
+    }
+
+    &.accent {
+        background-color: $accent;
+
+        &:hover {
+            background-color: lighten($accent, 5%);
+        }
+    }
+
+    &.warning {
+        background-color: $orange;
+
+        &:hover {
+            background-color: lighten($orange, 5%);
+        }
+    }
+
+    &.danger {
+        background-color: $red;
+        color: $light;
+
+        &:hover {
+            background-color: lighten($red, 5%);
+        }
+    }
+
+    &.block {
+        display: block;
+        width: 100%;
+    }
+}

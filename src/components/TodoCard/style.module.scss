@@ -1,0 +1,33 @@
+@import '../../assets/styles/theme';
+
+.card {
+    border-radius: $xs-space;
+    border: 1px solid $dark;
+    padding: $md-space;
+    position: relative;
+    overflow: hidden;
+
+    .cardTitle {
+        font-size: $lg-font;
+        font-weight: 400;
+        margin-bottom: $md-space;
+    }
+
+    .editFormWrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $light;
+        padding: $md-space;
+    }
+
+    .editLabel {
+        display: block;
+        font-size: $sm-font;
+        color: $dark;
+    }
+
+   
+}

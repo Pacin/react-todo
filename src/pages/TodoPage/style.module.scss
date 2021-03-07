@@ -1,0 +1,15 @@
+@import '../../assets/styles/_theme.scss';
+
+.todoList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: $md-space;
+}
+
+.addFormWrapper {
+    border: 1px solid $dark;
+    padding: $md-space;
+    margin: $lg-space auto;
+    max-width: 440px;
+    border-radius: $xs-space;
+}
